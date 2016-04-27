@@ -1,0 +1,27 @@
+body {
+    background-color: #072163;
+    color:#1F0865;
+}
+header {
+    width:98%;
+    position:fixed;
+}
+.logo {
+  border-top: 6px solid #1F969C;
+  padding: 0 0 22px 40px;
+  float: left;
+  margin-left: 100px;
+  font-size: 50px;
+}
+a {
+    color:#516FBB;
+    text-decoration: none;
+}
+a:hover {
+    color:#6E53BE;
+}
+nav {
+    text-align:right;
+    padding-top: 100px;
+    font-size: 17px;
+}
