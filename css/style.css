@@ -1,5 +1,7 @@
+/*============== index page================= */
+
 body {
-    background-color: #072163;
+    background-image: url(../img/bg.png);
     color:#01898F;
 }
 header {
@@ -7,18 +9,19 @@ header {
     height:150px;
 }
 .logo {
-  border-top: 6px solid #1F969C;
   padding: 0 0 22px 40px;
   float: left;
   margin-left: 100px;
   font-size: 50px;
 }
 a {
-    color:#516FBB;
+    color: #BC9E60;
     text-decoration: none;
+    padding:20px;
+
 }
 a:hover {
-    color:#6E53BE;
+    color:#664C30;
 }
 .nav {
     text-align:right;
@@ -27,7 +30,8 @@ a:hover {
     margin-right: 80px;
 }
 img {
-  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 1px black;
 }
 footer {
   padding: 0 0 50px 40px;
@@ -40,15 +44,16 @@ nav {
 }
 .slogan {
   font-size: 30px;
-  color:#40A8AD;
+  color:black;
   padding: 30px;
   display: inline-block;
 }
+.slogan p {
+  color: #BC9E60;
+}
 h1 {
   margin: 0;
-}
-.slogan img {
-  border-top:3px solid red;
+  font-family: 'Pinyon Script', cursive;
 }
 /*================== INDEX 4  STARTS HERE ======================*/
 
