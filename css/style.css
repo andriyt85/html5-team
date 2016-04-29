@@ -1,5 +1,7 @@
+/*============== index page================= */
+
 body {
-    background-color: #072163;
+    background-image: url(../img/bg.png);
     color:#01898F;
 }
 header {
@@ -7,7 +9,6 @@ header {
     height:150px;
 }
 .logo {
-  border-top: 6px solid #1F969C;
   padding: 0 0 22px 40px;
   float: left;
   margin-left: 100px;
@@ -17,12 +18,16 @@ header {
   
 }
 a {
-    color:#516FBB;
+    color: #BC9E60;
     text-decoration: none;
-    margin-right: 20px;
+
+
+
+    padding:20px;
+
 }
 a:hover {
-    color:#6E53BE;
+    color:#664C30;
 }
 .nav {
     text-align:right;
@@ -31,7 +36,8 @@ a:hover {
     margin-right: 80px;
 }
 img {
-  padding-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 1px black;
 }
 footer {
   padding: 0 0 50px 40px;
@@ -44,13 +50,39 @@ nav {
 }
 .slogan {
   font-size: 30px;
-  color:#40A8AD;
+  color:black;
   padding: 30px;
   display: inline-block;
 }
+.slogan p {
+  color: #BC9E60;
+}
 h1 {
   margin: 0;
+  font-family: 'Pinyon Script', cursive;
 }
+/*================== INDEX 4  STARTS HERE ======================*/
+
+
+.left_block {
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+}
+#map {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  height: 340px;
+  margin-left: 20px;
+}
+.line {
+  height: 1px solid black;
+}
+
 .slogan img {
   border-top:3px solid red;
 }
@@ -142,3 +174,11 @@ h1 {
 .i3foot {
   clear: both;
 }
+
+
+
+
+
+/*================== INDEX 4  ENDS HERE ========================*/
+
+
