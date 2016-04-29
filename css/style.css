@@ -1,3 +1,5 @@
+/*============== index page================= */
+
 body {
     background-image: url(../img/bg.png);
     color:#01898F;
@@ -15,7 +17,7 @@ header {
 a {
     color: #BC9E60;
     text-decoration: none;
-
+    padding:20px;
 }
 a:hover {
     color:#664C30;
@@ -27,11 +29,8 @@ a:hover {
     margin-right: 80px;
 }
 img {
-  border-radius: 70px;
-  box-shadow: 0 0 100px 1px black;
-}
-.img23 {
-  border-radius: 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px 1px black;
 }
 footer {
   padding: 0 0 50px 40px;
@@ -51,11 +50,9 @@ nav {
 .slogan p {
   color: #BC9E60;
 }
-h5 {
+h1 {
   margin: 0;
-}
-.slogan img {
-  border-top:3px solid red;
+  font-family: 'Pinyon Script', cursive;
 }
 /*================== INDEX 4  STARTS HERE ======================*/
 
