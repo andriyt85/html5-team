@@ -54,3 +54,33 @@ nav {
 h5 {
   margin: 0;
 }
+.slogan img {
+  border-top:3px solid red;
+}
+/*================== INDEX 4  STARTS HERE ======================*/
+
+
+.left_block {
+  box-sizing: border-box;
+  width: 30%;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+}
+#map {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  height: 340px;
+  margin-left: 20px;
+}
+.line {
+  height: 1px solid black;
+}
+
+
+
+
+/*================== INDEX 4  ENDS HERE ========================*/
+
