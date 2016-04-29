@@ -11,11 +11,15 @@ header {
   padding: 0 0 22px 40px;
   float: left;
   margin-left: 100px;
-  font-size: 50px;
+  font-size: 5em;
+  color: #cca15e;
+  font-family: 'Pinyon Script', cursive;
+  
 }
 a {
     color:#516FBB;
     text-decoration: none;
+    margin-right: 20px;
 }
 a:hover {
     color:#6E53BE;
@@ -49,4 +53,92 @@ h1 {
 }
 .slogan img {
   border-top:3px solid red;
+}
+/*INDEX3 STARTS HERE*/
+* {
+	box-sizing: border-box;
+}
+/*HEADER*/
+#i3logo {
+  padding: 0 0 22px 40px;
+  float: left;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+#i3logo img, #i3logo a {
+	 border-radius: 20px;
+}
+#i3rightl{
+	float:right;
+	margin-right: 150px;
+	font-size: 3em;
+	color: #cca15e;
+	font-family: 'Pinyon Script', cursive;
+	
+}
+/*ASIDE*/
+#i3menu {
+	float: left;
+	width: 25%;
+	height: auto;
+	margin-left: 75px;
+	position: fixed;
+	margin-top: 30px;
+}
+.i3show{
+	width: 300px;
+	height: 45px;
+	background-color: #66b3ff;
+	text-align: center;	
+	display: block;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 1em;
+	font-weight: bold;
+}
+.i3show:hover {
+	background-color: #e6f2ff;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+	0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-left: 5px;
+}
+.i3show:active {
+	background-color: #003366;
+	color: white;
+	font-weight: normal;
+}
+.i3lin {
+	text-decoration: none;
+}
+.i3lin:hover {
+	color: red;
+}
+/*SECTION*/
+#i3sec {
+	float: right;
+	width: 60%;
+	height: auto;
+	margin-right: 110px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	color: #cca15e;
+}
+#i3sec header {
+	text-align: center;
+	color: black;
+}
+.i3enter {
+	background-color: #66b3ff;
+	border-radius: 10px;
+	font-size: 2em;
+	height: 50px;
+}
+.i3first img {
+	margin-right: 15px;
+}
+.i3first p {
+	text-indent: 15px
+}
+.i3foot {
+  clear: both;
 }
