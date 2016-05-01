@@ -18,7 +18,9 @@ a {
     color: #BC9E60;
     text-decoration: none;
     padding:20px;
-
+    transition-property: color;
+    transition-duration: .35s;
+    transition-timing-function: linear;
 }
 a:hover {
     color:#664C30;
@@ -76,8 +78,66 @@ h1 {
 .line {
   height: 1px solid black;
 }
-
-
+.facebook {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .35s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.facebook:hover {
+  background-color: #0A5098;
+  display: inline-block;
+  color: #D3DBE3;
+  border-radius: 15px;
+}
+.twitter {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .35s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.twitter:hover {
+  background-color: #4CA4FF;
+  display: inline-block;
+  color: #D3DBE3;
+  border-radius: 15px;
+}
+.google {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .35s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.google:hover {
+  background-color: #FF2C00;
+  display: inline-block;
+  color: #D3DBE3;
+  border-radius: 15px;
+}
 
 
 /*================== INDEX 4  ENDS HERE ========================*/
