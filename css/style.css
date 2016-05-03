@@ -18,9 +18,6 @@ a {
     color: #BC9E60;
     text-decoration: none;
     padding:20px;
-    transition-property: color;
-    transition-duration: .35s;
-    transition-timing-function: linear;
 }
 a:hover {
     color:#664C30;
@@ -141,3 +138,4 @@ h1 {
 
 
 /*================== INDEX 4  ENDS HERE ========================*/
+
