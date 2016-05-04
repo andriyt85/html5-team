@@ -54,6 +54,114 @@ h1 {
   margin: 0;
   font-family: 'Pinyon Script', cursive;
 }
+/*====== INDEX3.HTML  STARTS HERE ======*/
+* {
+	box-sizing: border-box;
+}
+/*HEADER*/
+#i3logo {
+  padding: 0 0 22px 40px;
+  float: left;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+#i3textlogo {
+    padding: 0;
+}
+#i3logo img, #i3logo a {
+	 border-radius: 20px;
+}
+#i3rightl{
+	float:right;
+	margin-right: 150px;
+	font-size: 3em;
+	color: #bc9e60;
+	font-family: 'Pinyon Script', cursive;
+	
+}
+/*ASIDE*/
+#i3menu {
+	float: left;
+	width: 25%;
+	height: auto;
+	margin-left: 75px;
+	position: fixed;
+	margin-top: 10px;
+}
+.i3show{
+	width: 300px;
+	height: 45px;
+	background-color: #66b3ff;
+	text-align: center;	
+	display: block;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 1em;
+	font-weight: bold;
+	background-image: url('/img/backgr.jpg');
+	background-size: 100%;
+}
+.i3show:hover {
+	background-color: #e6f2ff;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+	0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-left: 5px;
+	background-image: url('/img/backgrhov.jpg');
+}
+.i3show:active {
+	background-color: #003366;
+	color: #0d0d0d;
+	font-weight: normal;
+    
+}
+.i3lin {
+	text-decoration: none;
+	
+}
+.i3lin:hover {
+	color: red;
+}
+/*SECTION*/
+#i3sec {
+	float: right;
+	width: 60%;
+	height: auto;
+	margin-right: 110px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	color: #cca15e;
+}
+#i3sec header {
+	text-align: center;
+	color: black;
+}
+.i3enter {
+	background-color: #66b3ff;
+	border-radius: 10px;
+	font-size: 2em;
+	height: 50px;
+	background-image: url('/img/backgr.jpg');
+    background-size: 100%;
+    font-family: Verdana, sans-serif;
+}
+.i3first img {
+    margin-top: 15px;
+	margin-right: 15px;
+	width: 300px;
+	height: 150px;
+	float: left;
+	clear: left;
+}
+.i3first p {
+	padding: 0 10px 0 10px;
+	text-indent: 15px
+}
+.i3foot {
+  clear: both;
+}
+/*====== INDEX3.HTML  ENDS HERE ======*/
+
+
 /*================== INDEX 4  STARTS HERE ======================*/
 
 
