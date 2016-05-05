@@ -202,11 +202,7 @@ h1 {
 
 
 /*================== INDEX 4  STARTS HERE ======================*/
-.i4_body {
-  background-image: none;
-  background-color: #152C55
- 
-}
+
 
 .facebook.i4_social {
     margin: 5px;
@@ -230,7 +226,7 @@ h1 {
   
 }
 .i4_body a:hover {
-  font-size: 1.1em;
+/*  font-size: 1.1em;*/
   color: #FFEFAA;
   
 }
@@ -290,8 +286,8 @@ h1 {
 
 .facebook {
   margin: 5px;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   background-color: #888C90;
   display: inline-block;
   color: #B8C0C8;
@@ -310,8 +306,8 @@ h1 {
 }
 .twitter {
   margin: 5px;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   background-color: #888C90;
   display: inline-block;
   color: #B8C0C8;
@@ -330,8 +326,8 @@ h1 {
 }
 .google {
   margin: 5px;
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   background-color: #888C90;
   display: inline-block;
   color: #B8C0C8;
