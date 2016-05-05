@@ -9,10 +9,10 @@ header {
     height:150px;
 }
 .logo {
-  padding: 0 0 22px 40px;
+  padding: 20px 0 22px 40px;
   float: left;
   margin-left: 100px;
-  font-size: 50px;
+  font-size: 5em;
 }
 a {
     color: #BC9E60;
@@ -49,6 +49,9 @@ nav {
 }
 .slogan p {
   color: #BC9E60;
+}
+.footer {
+  color: #BC9E60;;
 }
 h1 {
   margin: 0;
