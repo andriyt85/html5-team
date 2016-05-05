@@ -192,33 +192,90 @@ h1 {
 
 
 /*================== INDEX 4  STARTS HERE ======================*/
+.i4_body {
+  background-image: none;
+  background-color: #152C55
+ 
+}
 
+.facebook.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+.twitter.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+.google.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
 
-
+.i4_body a {
+  font-family: arial,sans-serif;
+  color: #D4C16A;
+  
+}
+.i4_body a:hover {
+  font-size: 1.1em;
+  color: #FFEFAA;
+  
+}
+.line {
+ 
+ margin: 1em auto; 
+ border:none; 
+ height:1px; 
+ background: #ccc; 
+ 
+}
 .left_block {
   box-sizing: border-box;
   width: 30%;
   display: inline-block;
   text-align: justify;
   vertical-align: top;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #D4C16A;
 }
+
+.left_block h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 #map {
   box-sizing: border-box;
   display: inline-block;
   width: 60%;
   height: 340px;
   margin-left: 20px;
-}
-.line {
-  height: 1px solid black;
-}
-.i4_body {
-  position: absolute;
-  z-index: 2;
-  background: url(../img/bg.png);
-  opacity: 0.5;
+  border: 2px solid grey;
+  border-radius: 3px;
 }
 
+
+.container {
+  margin-top: 20px;
+}
+
+.i4_footer {
+  color: grey;
+  width: 160px;
+  position: relative;
+  bottom: 60px;
+}
+.i4_footer  p {
+  margin: 0;
+}
 /*================== INDEX 4 ENDS HERE ======================*/
 
 .facebook {

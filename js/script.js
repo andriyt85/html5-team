@@ -1,7 +1,7 @@
 // JavaScript File
 var mapOptions = {
   zoom: 16,
-  center: {lat: 48.919419, lng: 24.715715},
+  center: {lat: 36.886409, lng: 30.699376},
 };
 
 function initMap() {
@@ -12,7 +12,7 @@ function initMap() {
     map: map,
     draggable: true,
     animation: google.maps.Animation.DROP,
-    position: {lat: 48.919419, lng: 24.715715}  });
+    position: {lat: 36.886409, lng: 30.699376}  });
     marker.addListener('click', toggleBounce);
     function toggleBounce() {
       if (marker.getAnimation() !== null) {
