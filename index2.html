@@ -35,47 +35,44 @@
                 <div class="vo_foto">
                     <img src="img/vo_eco.png" alt="econom">
                     <h3>Номер Економ:</h3>
-                    <h5>ціна за сутки: 200грн.</h5>
-                    <h5>ціна за 5 суток: 900грн.</h5>
-                    <h5>ціна за 10 суток: 1600грн.</h5>
+                    <h5>ціна за сутки: 200&#8364;.</h5>
+                    <h5>ціна за 5 суток: 900&#8364;.</h5>
+                    <h5>ціна за 10 суток: 1600&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
                 </div>
                 <br>
                 <div class="vo_foto">
                     <img src="img/vo_std.png" alt="standart">
                     <h3>Номер Стандарт:</h3>
-                    <h5>ціна за сутки: 400грн.</h5>
-                    <h5>ціна за 5 суток: 1800грн.</h5>
-                    <h5>ціна за 10 суток: 3200грн.</h5>
-                </div>
-                <br>
-                <div class="vo_foto">
-                    <img src="img/vo_nlu.png" alt="pre-lux">
-                    <h3>Номер Напівлюкс:</h3>
-                    <h5>ціна за сутки: 600грн.</h5>
-                    <h5>ціна за 5 суток: 2700грн.</h5>
-                    <h5>ціна за 10 суток: 4800грн.</h5>
+                    <h5>ціна за сутки: 400&#8364;.</h5>
+                    <h5>ціна за 5 суток: 1800&#8364;.</h5>
+                    <h5>ціна за 10 суток: 3200&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
                 </div>
                 <br>
                 <div class="vo_foto">
                     <img src="img/vo_lux.png" alt="lux">
                     <h3>Номер Люкс:</h3>
-                    <h5>ціна за сутки: 800грн.</h5>
-                    <h5>ціна за 5 суток: 3600грн.</h5>
-                    <h5>ціна за 10 суток: 6400грн.</h5>
+                    <h5>ціна за сутки: 800&#8364;.</h5>
+                    <h5>ціна за 5 суток: 3600&#8364;.</h5>
+                    <h5>ціна за 10 суток: 6400&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
                 </div>
                 <br>
         </article>
         <article id="vo_art2" class="vo_elements">
             <form>
-            	<br>
                 <label for="vo_nomer">Виберіть номер:</label>
                 <br>
                 <select name="select" id="vo_nomer" class="vo_inp">
                     <option value="1">Економ</option>
                     <option value="2">Стандарт</option>
-                    <option value="3">Напівлюкс</option>
                     <option value="4" selected>Люкс</option>
                 </select>
+                <br>
+                <label for="vo_check" id="vo_check">Одномісне проживання -50&#8364;/добу</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="vo_checkbox">
+                <br>
                 <br>
                 <label for="date">Дата заселення:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <label for="day">Дні перебування:</label>
@@ -100,28 +97,29 @@
                 <textarea name="message" cols="30" rows="5" id="message"></textarea>
                 <br>
             </form>
-            <a href="index.html"><img src="img/button.png" alt="забронювати" id="book" onclick="alert('Вашу заявку прийнято, очікуйте нашого дзвінка.')"></a>
+            <a href="index.html"><img src="img/vo_button.png" alt="забронювати" id="book" onclick="alert('Вашу заявку прийнято, очікуйте нашого дзвінка.')"></a>
         </article> 
       </section>
-    <footer class="i3foot">
-    	
-    	<nav>
+      <div style="width: 100%;height: 0px;clear: both;"></div>
+
+    <footer>
+        
+        <nav>
             <h4>
             <a href="index1.html">Номери</a>
             <a href="index2.html">Бронювання</a>
             <a href="index3.html">Додаткові послуги</a>
             <a href="index4.html">Контакти</a>
             </h4>
+            <a href="https://www.facebook.com/" class="facebook i4_social">f</a>
+            <a href="https://twitter.com" class="twitter i4_social">t</a>
+            <a href="https://plus.google.com/" class="google i4_social">g+</a>
         </nav>
-        <small>© All rights reserved. Team-B</small>
-    	
-    	М.Івано-Франківськ 2016
+        <span class="footer">
+        <small>© All rights reserved. Team-B. м.Івано-Франківськ 2016</small>
+        
+        </span>
 
     </footer>
-<script>
-	 $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
 </body>
 </html>

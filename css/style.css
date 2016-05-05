@@ -459,7 +459,7 @@ body {
 }
 
 .vo_elements {
-  padding: 1em;
+  padding: 1.5em 1em;
   border: 1px solid #664C30; 
   border-radius: 5px;
   height: 760px;
@@ -480,21 +480,27 @@ body {
 }
 .vo_foto img {
   width: 50%;
-  height: 150px;
+  height: 200px;
   float: left;
   border-radius: 5px;
 }
 .vo_foto {
   width: 100%;
-  height: 160px;
+  height: 220px;
   color: #BC9E60;
   margin: 0;
   border: 1px solid #664C30;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 .vo_foto h5{
   margin: 10px;
+}
+#vo_check {
+  margin: 15px 0 0 0;
+}
+#vo_checkbox {
+  margin: 0;
 }
 /*---input----*/
 .vo_elements form label {
@@ -525,13 +531,15 @@ body {
 }
 .vo_elements #book {
   width: 50%;
-  height: 50px;
-  margin: 10px auto; 
+  height: 40px;
+  margin: auto; 
   float: center;
+  border-radius: 10px;
 }
 
 .vo_elements #book:hover {
-  box-shadow: 0 0 40px 1px blue;
+  box-shadow: 0 0 40px 1px #664C30;
+  border-right: 10px;
 }
 
 .vo_elements article {
