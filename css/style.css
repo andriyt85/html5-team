@@ -9,10 +9,10 @@ header {
     height:150px;
 }
 .logo {
-  padding: 0 0 22px 40px;
+  padding: 20px 0 22px 40px;
   float: left;
   margin-left: 100px;
-  font-size: 50px;
+  font-size: 5em;
 }
 a {
     color: #BC9E60;
@@ -28,7 +28,7 @@ a:hover {
     font-size: 20px;
     margin-right: 80px;
 }
-img {
+.slogan img {
   border-radius: 20px;
   box-shadow: 0 0 25px 1px black;
 }
@@ -50,31 +50,237 @@ nav {
 .slogan p {
   color: #BC9E60;
 }
+.footer {
+  color: #BC9E60;;
+}
 h1 {
   margin: 0;
   font-family: 'Pinyon Script', cursive;
 }
+/*====== INDEX3.HTML  STARTS HERE ======*/
+* {
+	box-sizing: border-box;
+}
+/*HEADER*/
+#i3logo {
+  padding: 0 0 22px 40px;
+  float: left;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+#i3textlogo {
+    padding: 0;
+}
+#i3logo img, #i3logo a {
+	 border-radius: 20px;
+}
+#i3rightl{
+	float:right;
+	margin-right: 150px;
+	font-size: 3em;
+	color: #bc9e60;
+	font-family: 'Pinyon Script', cursive;
+	
+}
+/*ASIDE*/
+#i3menu {
+	float: left;
+	width: 20%;
+	height: auto;
+	margin-left: 75px;
+	position: fixed;
+	margin-top: 10px;
+}
+.i3show{
+	width: 300px;
+	height: 45px;
+	background-color: #66b3ff;
+	text-align: center;	
+	display: block;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 1em;
+	font-weight: bold;
+	background-image: url('/img/backgr.jpg');
+	background-size: 100%;
+}
+.i3show:hover {
+	background-color: #e6f2ff;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+	0 17px 50px 0 rgba(0,0,0,0.19);
+	margin-left: 5px;
+	background-image: url('/img/backgrhov.jpg');
+}
+.i3show:active {
+	background-color: #003366;
+	color: #0d0d0d;
+	font-weight: normal;
+    
+}
+.i3lin {
+	text-decoration: none;
+	
+}
+.i3lin:hover {
+	color: red;
+}
+/*SECTION*/
+#i3sec {
+	float: right;
+	width: 60%;
+	height: auto;
+	margin-right: 110px;
+	margin-top: -23px;
+	margin-bottom: 100px;
+	color: #cca15e;
+}
+#i3sec header {
+	text-align: center;
+	color: black;
+}
+@media screen and (max-width: 1300px) and (min-width: 900px) {
+	.i3show {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 899px) {
+	#i3menu {
+		display: none;
+	}
+	#i3logo {
+		visibility: hidden;
+	}
+	#i3rightl {
+		clear: both;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
+	.nav {
+		display: block;
+		position: absolute;
+		top: 0;
+	}
+	.i3enter {
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
+.i3enter {
+	background-color: #66b3ff;
+	border-radius: 10px;
+	font-size: 2em;
+	height: 50px;
+	background-image: url('/img/backgr.jpg');
+    background-size: 100%;
+    font-family: Verdana, sans-serif;
+    clear: both;
+    margin-top: 50px;
+}
+.i3first img {
+    margin-top: 10px;
+	margin-right: 15px;
+	width: 300px;
+	height: 150px;
+	float: left;
+	clear: left;
+}
+.i3first p {
+	padding: 0 10px 0 10px;
+	text-indent: 15px
+}
+.i3foot {
+  clear: both;
+}
+/*====== INDEX3.HTML  ENDS HERE ======*/
+
+
 /*================== INDEX 4  STARTS HERE ======================*/
+.i4_body {
+  background-image: none;
+  background-color: #152C55
+ 
+}
 
+.facebook.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+.twitter.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
+.google.i4_social {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+}
 
+.i4_body a {
+  font-family: arial,sans-serif;
+  color: #D4C16A;
+  
+}
+.i4_body a:hover {
+  font-size: 1.1em;
+  color: #FFEFAA;
+  
+}
+.line {
+ 
+ margin: 1em auto; 
+ border:none; 
+ height:1px; 
+ background: #ccc; 
+ 
+}
 .left_block {
   box-sizing: border-box;
   width: 30%;
   display: inline-block;
   text-align: justify;
   vertical-align: top;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #D4C16A;
 }
+
+.left_block h3 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
 #map {
   box-sizing: border-box;
   display: inline-block;
-  height: 100%;
   width: 60%;
   height: 340px;
   margin-left: 20px;
+  border: 2px solid grey;
+  border-radius: 3px;
 }
-.line {
-  height: 1px solid black;
+
+
+.container {
+  margin-top: 20px;
 }
+
+.i4_footer {
+  color: grey;
+  width: 160px;
+  position: relative;
+  bottom: 60px;
+}
+.i4_footer  p {
+  margin: 0;
+}
+/*================== INDEX 4 ENDS HERE ======================*/
+
 .facebook {
   margin: 5px;
   width: 30px;
@@ -137,5 +343,5 @@ h1 {
 }
 
 
-/*================== INDEX 4  ENDS HERE ========================*/
+
 
