@@ -349,6 +349,89 @@ h1 {
   border-radius: 15px;
 }
 
+/*================== INDEX 4  ENDS HERE ========================*/
+.slogan img {
+  border-top:3px solid red;
+}
+/*  //////////////Index1///////////////////// */ 
+    .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0 10px;
+    color:#ccebff;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+     }
+      .container  * {
+     flex: 1 100%;
+     }
+     .img{
+      max-width: 100%;
+      height: auto;
+     float: right;
+     padding: 10px;
+     }
+     .clearfix {
+    overflow: auto;
+    }
+    .zag{
+       width: 97%;
+      height: 38px;
+      padding: 0px 10px; 
+      padding-bottom: 15px;
+       border: 1px solid grey;
+      background-color:  #e6f2ff;
+      outline-style: double;
+       outline-color: grey;
+        color:#072163;
+    }
+     .econom{
+      width: 100%;
+      height: 30%;
+      padding: 10px;  
+     }
+     .klasic{
+      height: 30%;
+      padding: 10px;  
+      width: 100%;
+     }
+     .lux{
+      height: 30%;
+      padding: 10px;
+      width: 100%;
+     }
+
+     .forma1{
+      display: inline-block;
+      vertical-align:top;
+      width: 200px;
+      height: 35px;
+      border: 1px solid grey;
+      background-color:  #e6f2ff;
+       color:#072163;
+      padding-bottom: 5px;
+      margin: 27px;
+       outline-style: double;
+       outline-color: grey;
+     }
+          @media all and (min-width: 600px) {
+     .econom {
+     flex: 1 auto;
+      }
+      @media all and (min-width: 600px) {
+     .klasic {
+     flex: 2 auto;
+      }
+      @media all and (min-width: 800px) {
+     .lux {
+      flex: 3 auto;
+       }
 
 /*-----Volodymyr------*/
 
@@ -383,7 +466,7 @@ body {
 }
 
 .vo_elements {
-  padding: 1em;
+  padding: 1.5em 1em;
   border: 1px solid #664C30; 
   border-radius: 5px;
   height: 760px;
@@ -404,21 +487,27 @@ body {
 }
 .vo_foto img {
   width: 50%;
-  height: 150px;
+  height: 200px;
   float: left;
   border-radius: 5px;
 }
 .vo_foto {
   width: 100%;
-  height: 160px;
+  height: 220px;
   color: #BC9E60;
   margin: 0;
   border: 1px solid #664C30;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 .vo_foto h5{
   margin: 10px;
+}
+#vo_check {
+  margin: 15px 0 0 0;
+}
+#vo_checkbox {
+  margin: 0;
 }
 /*---input----*/
 .vo_elements form label {
@@ -449,16 +538,19 @@ body {
 }
 .vo_elements #book {
   width: 50%;
-  height: 50px;
-  margin: 10px auto; 
+  height: 40px;
+  margin: auto; 
   float: center;
+  border-radius: 10px;
 }
 
 .vo_elements #book:hover {
-  box-shadow: 0 0 40px 1px blue;
+  box-shadow: 0 0 40px 1px #664C30;
+  border-right: 10px;
 }
 
 .vo_elements article {
   margin: 10px;
 }
+
 
