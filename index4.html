@@ -3,63 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Royal Hotel</title>
+    <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
-<body>
+<body class="i4_body">
     <header>
-        <h1 class="logo">
-            <a href="index.html">Royal <br> Hotel</a>
-        </h1>
+        <div id="i3logo">
+            <a href="index.html"><img src="img/logo.jpg" style="margin-left:-40px; width:250px; height:150px"/></a>
+        </div>
+        <div id="i3rightl">
+        	 <a href="index.html" id="i3textlogo"><h1>Hotel Royal</h1></a>
+        </div>
+        
         <nav class="nav">
             <h4>
             <a href="index1.html">Номери</a>
             <a href="index2.html">Бронювання</a>
             <a href="index3.html">Додаткові послуги</a>
-            <a href="index4.html">Контакти</a>
             </h4>
         </nav>
+        
     </header>
+    
+   <div style="width: 100%;height: 0px;clear: both;"></div>
     <main>
-       	<center>
+       	<!--<center>
     	    <div class="slogan">
       		<img src="img/logo.jpg" width="350px" height="150px" class="b" />
       		<br>
       		Готель, в якому хочеться залишитись
       		</div>
-		</center>
+		</center>-->
 		<hr class="line">
       	<div class="container">
       	    <div class="left_block">
-      	        <p>Контактна інформація<br>Україна, Івано-Франківськ, вул. Галицька, 11а
-                Тел.: +38 (0342) 55-23-30, 75-01-00
-                Тел. мобільний: +38 (066) 817-11-73, (067) 582-14-13
-                Електронна пошта: info@hotel-franz.com.ua
-                Skype: franz.hotel
-                GPS: 48.92249, 24.709096
-                Готель «Franz» знаходиться в історичному центрі міста, поруч багато визначних місць, музеїв та архітектурних пам'ятників.
-                Івано-Франківськ має міжнародний аеропорт, залізничний та автобусний вокзали. 
-                Відстань до аеропорту — 9 км, до вокзалів — близько 4 км.</p>
+      	        <h3>Контактна інформація</h3>
+      	        <p>Kemeragzi Mevki Lara | Muratpasa, Анталия 07230, Туреччина<br><br>
+                Тел.: +8 10 90 255-23-30, +8 10 90 255-23-32<br>
+                Тел. мобільний: +8 (055) 817-11-73, (055) 582-14-13<br>
+                Електронна пошта: info@hotel-royal.com.tr<br>
+                Skype: hotel-royal
+                GPS: 36.886409, 30.699376 <br><br>
+                Готель «Royal» знаходиться в історичному центрі міста, поруч багато визначних місць, музеїв та архітектурних пам'ятників.
+                Анталія має міжнародний аеропорт, залізничний та автобусний вокзали. 
+                Відстань до аеропорту — 9 км, до моря — близько 500 м.</p>
       	    </div><!--
       	    --><div id="map"></div>
       	</div>
     </main>
-
-    <footer>
-    	
+    <hr class="line">
+<footer>
     	<nav>
             <h4>
             <a href="index1.html">Номери</a>
             <a href="index2.html">Бронювання</a>
             <a href="index3.html">Додаткові послуги</a>
-            <a href="index4.html">Контакти</a>
             </h4>
+            <a href="https://www.facebook.com/" class="facebook i4_social">f</a>
+            <a href="https://twitter.com" class="twitter i4_social">t</a>
+            <a href="https://plus.google.com/" class="google i4_social">g+</a>
         </nav>
-        <small>© All rights reserved. Team-B</small>
-    	<br>
-    	М.Івано-Франківськ 2016
-
+        <section class="i4_footer">
+            <small>© All rights reserved.<br>
+            Powered by Team-B<br>
+        	м.Івано-Франківськ 2016</small>
+        </section>
     </footer>
-    <script type="text/javascript" src="/js/script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?v=3.21&key=AIzaSyCJalKgnOv4NhLV_RnSYmbqamTlnR8a7t8&callback=initMap&language=ua">
     </script>
