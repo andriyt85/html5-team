@@ -183,6 +183,12 @@ h1 {
 .line {
   height: 1px solid black;
 }
+.i4_body {
+  position: absolute;
+  z-index: 2;
+  background: url(../img/bg.png);
+  opacity: 0.5;
+}
 
 /*================== INDEX 4 ENDS HERE ======================*/
 
