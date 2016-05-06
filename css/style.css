@@ -61,88 +61,7 @@ h1 {
   margin: 0;
   font-family: 'Pinyon Script', cursive;
 }
-/*  //////////////Index1///////////////////// */ 
-    .container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0 10px;
-    color:#BC9E60;
-    font-size: 18px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-     }
-      .container  * {
-     flex: 1 100%;
-     }
-     .img{
-      max-width: 100%;
-      height: auto;
-     float: right;
-     padding: 10px;
-     }
-     .clearfix {
-    overflow: auto;
-    }
-    .zag{
-       width: 100%;
-      height: 38px;
-      padding: 0px; 
-      text-align: center;
-      padding-bottom: 15px;
-       border: 1px solid grey;
-      background-color: #BC9E60;
-      outline-style: double;
-       outline-color: grey;
-        color:#072163;
-    }
-     .econom{
-      width: 100%;
-      height: 30%;
-      padding: 10px;  
-     }
-     .klasic{
-      height: 30%;
-      padding: 10px;  
-      width: 100%;
-     }
-     .lux{
-      height: 30%;
-      padding: 10px;
-      width: 100%;
-     }
 
-     .forma1{
-      display: inline-block;
-      vertical-align:top;
-      text-align: center;
-      width: 200px;
-      height: 35px;
-      border: 1px solid grey;
-       background-image: url(../img/bg.png);
-       color:#BC9E60;
-      padding-bottom: 5px;
-      margin: 27px;
-       outline-style: double;
-       outline-color: #BC9E60;
-     }
-          @media all and (min-width: 600px) {
-     .econom {
-     flex: 1 auto;
-      }
-      @media all and (min-width: 600px) {
-     .klasic {
-     flex: 2 auto;
-      }
-      @media all and (min-width: 800px) {
-     .lux {
-      flex: 3 auto;
-       }
-       /*  //////////////Index1///////////////////// */ 
 /*====== INDEX3.HTML  STARTS HERE ======*/
 * {
 	box-sizing: border-box;
@@ -428,88 +347,7 @@ h1 {
 }
 
 /*SOCIAL BUTTONS ENDS*/
-/*  //////////////Index1///////////////////// */ 
-    .container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 0 10px;
-    color:#ccebff;
-    font-size: 18px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-     }
-      .container  * {
-     flex: 1 100%;
-     }
-     .img{
-      max-width: 100%;
-      height: auto;
-     float: right;
-     padding: 10px;
-     }
-     .clearfix {
-    overflow: auto;
-    }
-    .zag{
-       width: 97%;
-      height: 38px;
-      padding: 0px 10px; 
-      padding-bottom: 15px;
-       border: 1px solid grey;
-      background-color:  #e6f2ff;
-      outline-style: double;
-       outline-color: grey;
-        color:#072163;
-    }
-     .econom{
-      width: 100%;
-      height: 30%;
-      padding: 10px;  
-     }
-     .klasic{
-      height: 30%;
-      padding: 10px;  
-      width: 100%;
-     }
-     .lux{
-      height: 30%;
-      padding: 10px;
-      width: 100%;
-     }
 
-     .forma1{
-      display: inline-block;
-      vertical-align:top;
-      width: 200px;
-      height: 35px;
-      border: 1px solid grey;
-      background-color:  #e6f2ff;
-       color:#072163;
-      padding-bottom: 5px;
-      margin: 27px;
-       outline-style: double;
-       outline-color: grey;
-     }
-          @media all and (min-width: 600px) {
-     .econom {
-     flex: 1 auto;
-      }
-          }
-      @media all and (min-width: 600px) {
-     .klasic {
-     flex: 2 auto;
-      }
-          }
-      @media all and (min-width: 800px) {
-     .lux {
-      flex: 3 auto;
-       }
-}
 /*-----Volodymyr------*/
 
 
@@ -662,7 +500,8 @@ body {
       height: 38px;
       padding: 0px; 
       text-align: center;
-      padding-bottom: 20px;
+      font-size:22px;
+      padding-top: 5px;
        border: 1px solid grey;
       background-color: #BC9E60;
       outline-style: double;
@@ -690,7 +529,7 @@ body {
       vertical-align:top;
       text-align: center;
       width: 200px;
-      height: 35px;
+      height: 42px;
       border: 1px solid grey;
        background-image: url(../img/bg.png);
        color:#BC9E60;
