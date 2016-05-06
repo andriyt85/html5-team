@@ -550,7 +550,7 @@ body {
 
 /*  //////////////Index1///////////////////// */ 
     .container {
-    max-width: 80%;
+    max-width: 86%;
     margin: 0 auto;
     padding: 0 10px;
     color:#BC9E60;
@@ -613,7 +613,7 @@ body {
        background-image: url(../img/bg.png);
        color:#BC9E60;
       padding-bottom: 5px;
-      margin: 27px;
+      margin: 20px;
        outline-style: double;
        outline-color: #BC9E60;
      }
@@ -629,4 +629,5 @@ body {
      .lux {
       flex: 3 auto;
        }
+      }
        /*  //////////////Index1///////////////////// */ 
