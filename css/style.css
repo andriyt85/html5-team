@@ -24,7 +24,7 @@ header {
 a {
     color: #BC9E60;
     text-decoration: none;
-    padding:20px;
+    padding:0px 13px;
 }
 a:hover {
     color:#FFEFAA;
@@ -290,20 +290,80 @@ h1 {
 }
 
 
-.container {
+.container_i4 {
   margin-top: 20px;
 }
 
-.i4_footer {
-  color: grey;
-  width: 160px;
-  position: relative;
-  bottom: 60px;
+.ticket_box {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
 }
-.i4_footer  p {
+.ticket_box a {
   margin: 0;
+  padding: 0;
 }
+.ticket_box img:nth-child(1){
+  width: 258px;
+  height: 77px;
+  border-radius: 9px;
+}
+.ticket_box img:nth-child(2){
+  width: 258px;
+  height: 77px;
+  border-radius: 9px;
+}
+.ticket_box img:nth-child(3){
+  width: 258px;
+  height: 77px;
+  border-radius: 9px;
+}
+@media all and (max-width: 1000px) {
+.i4_adaptive {
+  display: none;
+}
+.i4_Hotel_Name{
+  float: none;
+  
+}
+.i4_nav {
+  padding-top: 0px;
+} 
+}
+@media all and (max-width: 930px) {
+.i4_nav a {
+  display: block;
+  padding-top: 0px;
+}
+.i4_nav {
+  padding-top: 0px;
+  text-align: center;
+}  
+}
+.i4_footer  small {
+  top: 0px;
+}
+@media all and (max-width: 700px) {
+.i4_Hotel_Name {
+  display: none;
+}  
+.container_i4 > div {
+  box-sizing: content-box;
+  width: 100%;
+}
+.i4_footer {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+.i4_footer nav {
+  margin: 0 auto;
+  text-align: center;
+}
+}
+
 /*================== INDEX 4 ENDS HERE ======================*/
+
 /*SOCIAL BUTTONS STARTS*/
 .facebook {
   margin: 5px;
