@@ -251,6 +251,9 @@ h1 {
   color: #FFEFAA;
   
 }
+.i4_nav {
+  padding-top: 0px;
+} 
 .line {
  
  margin: 1em auto; 
@@ -303,6 +306,10 @@ h1 {
   margin: 0;
   padding: 0;
 }
+.ticket_box img:hover {
+  border: 1.5px solid white;
+  
+}
 .ticket_box img:nth-child(1){
   width: 258px;
   height: 77px;
@@ -326,9 +333,7 @@ h1 {
   float: none;
   
 }
-.i4_nav {
-  padding-top: 0px;
-} 
+
 }
 @media all and (max-width: 930px) {
 .i4_nav a {
