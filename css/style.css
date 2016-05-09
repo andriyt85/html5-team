@@ -301,6 +301,13 @@ h1 {
  display: flex;
  justify-content: space-around;
  flex-wrap: wrap;
+ 
+}
+.ticket_box:hover .air  {
+   transform: scale(0.9);
+}
+.air:hover {
+   transform: scale(1.05) !important;
 }
 .ticket_box a {
   margin: 0;
@@ -325,6 +332,7 @@ h1 {
   height: 77px;
   border-radius: 9px;
 }
+
 @media all and (max-width: 1000px) {
 .i4_adaptive {
   display: none;
