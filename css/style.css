@@ -175,6 +175,12 @@ h1 {
 	.i3show {
 		width: 80%;    
   }
+  #i3logo  {
+    margin-left: 0px;
+  }
+  #i3rightl {
+   display: none;
+  }
   #i3menu {
     margin-left: 35px;
     margin-top: 10px;
@@ -655,7 +661,7 @@ overflow: auto;
 /*ASIDE*/
 #in1menu {
 	float: left;
-	width: 15%;
+	width: 20%;
 	height: auto;
 	margin-left: 75px;
 	margin-top: 10px;
@@ -688,9 +694,10 @@ overflow: auto;
 .in1lin {
 	text-decoration: none;
 }
+
 /*SECTION*/
 #in1sec {
-	float: right
+	float: right;
 	width: 60%;
 	height: auto;
 	margin: -23px 80px 100px 20px;
