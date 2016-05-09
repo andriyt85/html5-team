@@ -170,12 +170,27 @@ h1 {
 .i3foot {
   clear: both;
 }
-@media screen and (max-width: 1300px) and (min-width: 900px) {
+
+@media all and (max-width: 1300px) {
 	.i3show {
-		width: 80%;
-	}
+		width: 80%;    
+  }
+  #i3logo  {
+    margin-left: 0px;
+  }
+  #i3rightl {
+   display: none;
+  }
+  #i3menu {
+    margin-left: 35px;
+    margin-top: 10px;
+    left: 0;
+  }
+  .nav {
+    padding-top: 0;
+  }  
 }
-@media screen and (max-width: 899px) and (min-width: 700) {
+@media all and (max-width: 899px) {
 	#i3menu {
 		display: none;
 	}
@@ -195,10 +210,10 @@ h1 {
 	.i3enter {
 		text-overflow: ellipsis;
 		overflow: hidden;
-	}
+	}  
 }
-@media screen and (max-width: 699px) {
-	#i3menu {
+@media all and (max-width: 699px) {
+	#i3menu, #i3soc {
 		display: none;
 	}
 	#i3logo, .i3show {
@@ -207,7 +222,7 @@ h1 {
 	#i3rightl {
 		clear: both;
 		margin-top: 50px;
-		margin-left: 50px;
+		margin-left: 100px;
 	}
 	.nav {
 		display: block;
@@ -218,6 +233,9 @@ h1 {
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
+  .footer {
+    margin-top: 50px;
+  }
 }
 /*====== INDEX3.HTML  ENDS HERE ======*/
 
