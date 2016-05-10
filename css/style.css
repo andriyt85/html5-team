@@ -176,19 +176,12 @@ h1 {
 		width: 80%;    
   }
   #i3logo  {
-    margin-left: 0px;
-  }
-  #i3rightl {
-   display: none;
+    margin-left: 65px;
   }
   #i3menu {
     margin-left: 35px;
     margin-top: 10px;
-    left: 0;
   }
-  .nav {
-    padding-top: 0;
-  }  
 }
 @media all and (max-width: 899px) {
 	#i3menu {
@@ -198,11 +191,10 @@ h1 {
 		visibility: hidden;
 	}
 	#i3rightl {
-		clear: both;
-		margin-top: 50px;
-		margin-left: 50px;
-	}
+   display: none;
+  }
 	.nav {
+		margin-top: -50px;
 		position: static;
 	}
 	.i3enter {
@@ -219,12 +211,13 @@ h1 {
 	}
 	#i3rightl {
 		clear: both;
-		margin-top: 50px;
+		margin-top: 0px;
 		margin-left: 100px;
 	}
 	.nav {
 		display: block;
-	
+    position: absolute;	
+   margin-top: -50px;
 	}
 	.i3enter {
 		text-overflow: ellipsis;
