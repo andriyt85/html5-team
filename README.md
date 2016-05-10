@@ -37,6 +37,19 @@
 - Кнопки соціальних мереж
 - Наповнення контентом сторінки четвертої новини + доповнення її стилями
 
-##### Посилання на власний [репозиторій](https://github.com/akardash/html5-team).
-##### Посилання на головний [репозиторій](https://github.com/WEB-UI-TEAM-B/html5-team)
-##### Посилання на [сторінку](web-ui-team-b.github.io/html5-team)
+#### Посилання на власний [репозиторій](https://github.com/akardash/html5-team).
+#### Посилання на головний [репозиторій](https://github.com/WEB-UI-TEAM-B/html5-team)
+#### Посилання на [сторінку](web-ui-team-b.github.io/html5-team)
+
+### Олександр Адамчук
+
+Виконав наступне:
+
+- Мокап та верстка сторінки index4.html ("Контакти та відгуки")
+- Наповнення контентом news5.html
+
+#### Посилання на власний [репозиторій](https://github.com/StrangerIF/html5-team.git).
+#### Посилання на головний [репозиторій](https://github.com/WEB-UI-TEAM-B/html5-team)
+#### Посилання на [сторінку](web-ui-team-b.github.io/html5-team)
+
+
