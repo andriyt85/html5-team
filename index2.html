@@ -11,7 +11,7 @@
     
     <header>
         <div id="i3logo">
-            <a href="index.html"><img src="img/logo.jpg" style="margin-left:-40px; width:250px; height:150px"/></a>
+            <a href="index.html"><img src="img/logo.jpg" alt="" style="margin-left:-85px; width:250px; height:150px"/></a>
         </div>
         <div id="i3rightl">
         	 <a href="index.html" id="i3textlogo"><h1>Hotel Royal</h1></a>
@@ -21,8 +21,9 @@
             <h4>
             <a href="index1.html">Номери</a>
             <a href="index2.html">Бронювання</a>
+             <a href="news1.html">Новини</a>
             <a href="index3.html">Додаткові послуги</a>
-            <a href="index4.html">Контакти</a>
+            <a href="index4.html">Контакти та відгуки</a>
             </h4>
         </nav>
         
@@ -35,28 +36,28 @@
                 <div class="vo_foto">
                     <img src="img/vo_eco.png" alt="econom">
                     <h3>Номер Економ:</h3>
-                    <h5>ціна за сутки: 200&#8364;.</h5>
-                    <h5>ціна за 5 суток: 900&#8364;.</h5>
-                    <h5>ціна за 10 суток: 1600&#8364;.</h5><br>
-                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
+                    <h5>ціна за добу: 200&#8364;.</h5>
+                    <h5>ціна за 5 діб: 900&#8364;.</h5>
+                    <h5>ціна за 10 діб: 1600&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -&nbsp;50&#8364;&nbsp;/&nbsp;добу</h5>
                 </div>
                 <br>
                 <div class="vo_foto">
                     <img src="img/vo_std.png" alt="standart">
                     <h3>Номер Стандарт:</h3>
-                    <h5>ціна за сутки: 400&#8364;.</h5>
-                    <h5>ціна за 5 суток: 1800&#8364;.</h5>
-                    <h5>ціна за 10 суток: 3200&#8364;.</h5><br>
-                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
+                    <h5>ціна за добу: 400&#8364;.</h5>
+                    <h5>ціна за 5 діб: 1800&#8364;.</h5>
+                    <h5>ціна за 10 діб: 3200&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -&nbsp;50&#8364;&nbsp;/&nbsp;добу</h5>
                 </div>
                 <br>
                 <div class="vo_foto">
                     <img src="img/vo_lux.png" alt="lux">
                     <h3>Номер Люкс:</h3>
-                    <h5>ціна за сутки: 800&#8364;.</h5>
-                    <h5>ціна за 5 суток: 3600&#8364;.</h5>
-                    <h5>ціна за 10 суток: 6400&#8364;.</h5><br>
-                    <h5>Одномісне розміщення<br> -50&#8364;/добу</h5>
+                    <h5>ціна за добу: 800&#8364;.</h5>
+                    <h5>ціна за 5 діб: 3600&#8364;.</h5>
+                    <h5>ціна за 10 діб: 6400&#8364;.</h5><br>
+                    <h5>Одномісне розміщення<br> -&nbsp;50&#8364;&nbsp;/&nbsp;добу</h5>
                 </div>
                 <br>
         </article>
@@ -70,19 +71,19 @@
                     <option value="4" selected>Люкс</option>
                 </select>
                 <br>
-                <label for="vo_check" id="vo_check">Одномісне проживання -50&#8364;/добу</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="vo_checkbox" id="vo_check">Одномісне проживання:&nbsp; -&nbsp;50&#8364;&nbsp;/&nbsp;добу</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="checkbox" id="vo_checkbox">
                 <br>
                 <br>
                 <label for="date">Дата заселення:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <label for="day">Дні перебування:</label>
                 <br>
-                <input type="date"/ id="date" class="vo_inp" min="2016-05-05" required>
+                <input type="date" id="date" class="vo_inp" min="2016-05-05" required>
                 <input type="number" id="day" class="vo_inp" min="1" required><br>
                 <br>
-                <label for="surname">ПІБ:</label>
+                <label for="surname">Прізвище Ім'я по-Батькові:</label>
                 <br>
-                <input type="name" name="surname" id="surname" class="vo_input" placeholder="ПІБ" required/><br>
+                <input type="text" name="surname" id="surname" class="vo_input" placeholder="ПІБ" required/><br>
                 <br>
                 <label for="email">Електронна адреса:</label>
                 <br>
@@ -92,7 +93,7 @@
                 <br>
                 <input type="tel" name="tel" id="tel" class="vo_input" placeholder="номер телефону" required/><br>
                 <br>
-                <label for="textarea">Ваші побажання:</label>
+                <label for="message">Ваші побажання:</label>
                 <br>
                 <textarea name="message" cols="30" rows="5" id="message"></textarea>
                 <br>
@@ -108,12 +109,13 @@
             <h4>
             <a href="index1.html">Номери</a>
             <a href="index2.html">Бронювання</a>
+            <a href="news1.html">Новини</a>
             <a href="index3.html">Додаткові послуги</a>
-            <a href="index4.html">Контакти</a>
+            <a href="index4.html">Контакти та відгуки</a>
             </h4>
-            <a href="https://www.facebook.com/" class="facebook i4_social">f</a>
-            <a href="https://twitter.com" class="twitter i4_social">t</a>
-            <a href="https://plus.google.com/" class="google i4_social">g+</a>
+            <a href="https://www.facebook.com/" class="facebook i4_social"  target=_blank>f</a>
+            <a href="https://twitter.com" class="twitter i4_social"  target=_blank>t</a>
+            <a href="https://plus.google.com/" class="google i4_social"  target=_blank>g+</a>
         </nav>
         <span class="footer">
         <small>© All rights reserved. Team-B. м.Івано-Франківськ 2016</small>

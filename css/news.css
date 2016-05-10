@@ -83,6 +83,7 @@ h1 {
 #i3rightl{
 	float:right;
 	margin-right: 150px;
+  padding-right: 100px;
 	font-size: 3em;
 	color: #bc9e60;
 	font-family: 'Pinyon Script', cursive;
@@ -176,12 +177,19 @@ h1 {
 		width: 80%;    
   }
   #i3logo  {
-    margin-left: 65px;
+    margin-left: 0px;
+  }
+  #i3rightl {
+   display: none;
   }
   #i3menu {
     margin-left: 35px;
     margin-top: 10px;
+    left: 0;
   }
+  .nav {
+    padding-top: 0;
+  }  
 }
 @media all and (max-width: 899px) {
 	#i3menu {
@@ -191,11 +199,14 @@ h1 {
 		visibility: hidden;
 	}
 	#i3rightl {
-   display: none;
-  }
+		clear: both;
+		margin-top: 50px;
+		margin-left: 50px;
+	}
 	.nav {
-		margin-top: -50px;
-		position: static;
+		display: block;
+		position: absolute;
+		top: 0;
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -211,13 +222,13 @@ h1 {
 	}
 	#i3rightl {
 		clear: both;
-		margin-top: 0px;
+		margin-top: 50px;
 		margin-left: 100px;
 	}
 	.nav {
 		display: block;
-    position: absolute;	
-   margin-top: -50px;
+		position: absolute;
+		top: 0;
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -232,31 +243,7 @@ h1 {
 
 /*================== INDEX 4  STARTS HERE ======================*/
 
-.i4_adaptive {
-  padding: 0 0 22px 40px;
-  float: left;
-  margin-left: 100px;
-  border-radius: 20px;
-}
 
-
-.i4_Hotel_Name {
-  margin-right: 150px;
-  font-size: 3em;
-  color: #BC9E60;
-  font-family: "Pinyon Script",cursive;
-  float: right;
-}
-.i4_Hotel_Name a {
-  padding: 0px;
-}
-
-@media all and (max-width: 899px) {
-.i4_nav {
-		position: static !important;
-}
-
-}
 .facebook.i4_social {
     margin: 5px;
     width: 45px;
@@ -317,7 +304,7 @@ h1 {
 #map {
   box-sizing: border-box;
   display: inline-block;
-  width: 66%;
+  width: 60%;
   height: 340px;
   margin-left: 20px;
   border: 2px solid grey;
@@ -327,20 +314,12 @@ h1 {
 
 .container_i4 {
   margin-top: 20px;
-  margin-left: 20px;
 }
 
 .ticket_box {
  display: flex;
  justify-content: space-around;
  flex-wrap: wrap;
- 
-}
-.ticket_box:hover .air  {
-   transform: scale(0.9);
-}
-.air:hover {
-   transform: scale(1.05) !important;
 }
 .ticket_box a {
   margin: 0;
@@ -365,8 +344,7 @@ h1 {
   height: 77px;
   border-radius: 9px;
 }
-
-@media all and (max-width: 1050px) {
+@media all and (max-width: 1000px) {
 .i4_adaptive {
   display: none;
 }
@@ -392,13 +370,7 @@ h1 {
 @media all and (max-width: 700px) {
 .i4_Hotel_Name {
   display: none;
-  
-}
-.i4_header {
-  display: none;
-}}
-@media all and (max-width: 700px) {
-
+}  
 .container_i4 > div {
   box-sizing: content-box;
   width: 100%;
@@ -413,7 +385,15 @@ h1 {
   text-align: center;
 }
 }
+.news5_text p {
+  text-indent: 20px;
+  text-align: justify;
+}
 
+.news5_section  {
+  margin-bottom: 20px;
+  
+}
 /*================== INDEX 4 ENDS HERE ======================*/
 
 /*SOCIAL BUTTONS STARTS*/
@@ -687,79 +667,116 @@ overflow: auto;
   }
    /*  //////////////Index1///////////////////// */ 
 /*====== NEWS STARTS HERE ======*/
+/*HEADER*/
+.inheader {
+  margin-bottom: 5px;
+}
+#inlogo {
+  padding: 0px 40px 25px 40px;
+  border-radius: 20px;
+}
+#intextlogo {
+    padding: 0;
+    text-decoration: none;
+}
+#inrightl h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+#inlogo img, #inlogo a {
+   border-radius: 20px;
+}
+#inrightl {
+  padding: 18px 0 10px 290px;
+  font-size: 3em;
+  color: #bc9e60;
+  font-family: 'Pinyon Script', cursive;  
+}
+.innav {
+  margin-top: 10px;
+  padding: 30px 70px 0px 0px;
+  margin: 0 auto;
+}
+.innav a {
+  text-decoration: none;
+  font-weight: bold;
+}
 /*ASIDE*/
-#in1menu {
-	float: left;
-	width: 20%;
-	height: auto;
-	margin-left: 75px;
-	margin-top: 10px;
+#in1menu {  
+  padding: 35px 20px 15px 40px;
 }
 .in1show{
-	width: 300px;
-	height: auto;
-	min-height: 45px;
-	background-color: #262A29;
-	text-align: center;	
-	display: block;
-	border-radius: 10px;
-	margin: 0 auto;
-	font-size: 1em;
-	font-weight: bold;
-	color: #D6AA5B;
-	border-color: #D6AA5B;
+  width: 70%;
+  height: auto;
+  min-height: 45px;
+  background-color: #262A29;
+  text-align: center; 
+  border-radius: 10px;
+  margin: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #D6AA5B;
+  border-color: #D6AA5B;
 }
 .in1show:hover {
-	background-color: #D6AA5B;
-	box-shadow: 0 0 40px 1px #664C30;
-	margin-right: 5px;
-	color: #262A29;
-	border-color: #262A29;
+  background-color: #D6AA5B;
+  box-shadow: 0 0 40px 1px #664C30;
+  margin-right: 5px;
+  color: #262A29;
+  border-color: #262A29;
 }
 .in1show:active {
-	background-color: #D6AA5B;
-	color: #262A29;
-	font-weight: normal;
+  background-color: #D6AA5B;
+  color: #262A29;
+  font-weight: normal;
 }
 .in1lin {
-	text-decoration: none;
+  text-decoration: none;
 }
-
 /*SECTION*/
 #in1sec {
-	float: right;
-	width: 60%;
-	height: auto;
-	margin: -23px 80px 100px 20px;
-	color: #cca15e;
+  margin-left: 0px;
+  padding: 35px 20px 20px 0;
+  color: #cca15e;
 }
 #in1sec header {
-	text-align: center;
-	color: #D6AA5B;
-	background-color: #262A29;
-	border-color: #D6AA5B;
+  text-align: center;
+  color: #D6AA5B;
+  background-color: #262A29;
+  border-color: #D6AA5B;
 }
 .in1enter {
-	background-color: #66b3ff;
-	border-radius: 10px;
-	font-size: 2em;
-	height: 50px;
-	background-color: #262A29;
-	border: 2px solid #D6AA5B;
+  background-color: #66b3ff;
+  border-radius: 10px;
+  font-size: 2em;
+  height: 50px;
+  background-color: #262A29;
+  border: 2px solid #D6AA5B;
+  font-family: Verdana, sans-serif;
 }
 .infirst img {
-    margin-top: 10px;
-	margin-right: 15px;
-	width: 16em;
-	height: 9em;
-	float: left;
-	clear: left;
+  padding: 10px 0 10px 0px;
+  width: 30em;
+  height: auto;
+  margin: 0 auto;
+  
+}
+.indiv {
+  padding-left: 100px;
 }
 .infirst p {
-	padding: 0 10px 0 10px;
-	text-indent: 15px
+  margin-top: 0px;
+  padding: 10px 10px 0 10px;
+  text-indent: 15px
 }
-.in1foot {
-  clear: both;
+/*FOOTER*/
+.innavf {
+  margin-top: 10px;
+  padding: 30px 140px 0px 0px;
+  margin: 0 auto;
+}
+.innavf a {
+  text-decoration: none;
+  font-weight: bold;
 }
 /*====== NEWS ENDS HERE ======*/
