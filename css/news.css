@@ -385,7 +385,15 @@ h1 {
   text-align: center;
 }
 }
+.news5_text p {
+  text-indent: 20px;
+  text-align: justify;
+}
 
+.news5_section  {
+  margin-bottom: 20px;
+  
+}
 /*================== INDEX 4 ENDS HERE ======================*/
 
 /*SOCIAL BUTTONS STARTS*/
