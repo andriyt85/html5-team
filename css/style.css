@@ -203,9 +203,7 @@ h1 {
 		margin-left: 50px;
 	}
 	.nav {
-		display: block;
-		position: absolute;
-		top: 0;
+		position: static;
 	}
 	.i3enter {
 		text-overflow: ellipsis;
