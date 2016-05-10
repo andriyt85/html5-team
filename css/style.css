@@ -226,8 +226,7 @@ h1 {
 	}
 	.nav {
 		display: block;
-		position: absolute;
-		top: 0;
+	
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -242,7 +241,31 @@ h1 {
 
 /*================== INDEX 4  STARTS HERE ======================*/
 
+.i4_adaptive {
+  padding: 0 0 22px 40px;
+  float: left;
+  margin-left: 100px;
+  border-radius: 20px;
+}
 
+
+.i4_Hotel_Name {
+  margin-right: 150px;
+  font-size: 3em;
+  color: #BC9E60;
+  font-family: "Pinyon Script",cursive;
+  float: right;
+}
+.i4_Hotel_Name a {
+  padding: 0px;
+}
+
+@media all and (max-width: 899px) {
+.i4_nav {
+		position: static !important;
+}
+
+}
 .facebook.i4_social {
     margin: 5px;
     width: 45px;
@@ -303,7 +326,7 @@ h1 {
 #map {
   box-sizing: border-box;
   display: inline-block;
-  width: 60%;
+  width: 66%;
   height: 340px;
   margin-left: 20px;
   border: 2px solid grey;
@@ -313,6 +336,7 @@ h1 {
 
 .container_i4 {
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .ticket_box {
@@ -351,7 +375,7 @@ h1 {
   border-radius: 9px;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1050px) {
 .i4_adaptive {
   display: none;
 }
@@ -377,7 +401,13 @@ h1 {
 @media all and (max-width: 700px) {
 .i4_Hotel_Name {
   display: none;
-}  
+  
+}
+.i4_header {
+  display: none;
+}}
+@media all and (max-width: 700px) {
+
 .container_i4 > div {
   box-sizing: content-box;
   width: 100%;
