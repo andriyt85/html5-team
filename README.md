@@ -13,9 +13,9 @@
  - Створення сторінки "новин" з використанням бібліотеки Bootstrap, та наповненням контентом сторінки головної(першої) новини.
  - Контроль головного репозиторію(приймання реквестів та вирішення конфліктів)
  
-### Посилання на власний репозиторій:  https://github.com/andriyt85/html5-team
-### Посилання на головний репозиторій: https://github.com/WEB-UI-TEAM-B/html5-team
-### Посилання на сторінку: web-ui-team-b.github.io/html5-team
+#### Посилання на власний репозиторій:  https://github.com/andriyt85/html5-team
+#### Посилання на головний репозиторій: https://github.com/WEB-UI-TEAM-B/html5-team
+#### Посилання на сторінку: web-ui-team-b.github.io/html5-team
 
 
 
@@ -27,6 +27,6 @@
 - Кнопки соціальних мереж
 - Наповнення контентом сторінки четвертої новини + доповнення її стилями
 
-### Посилання на власний [репозиторій](https://github.com/akardash/html5-team).
-### Посилання на головний репозиторій: https://github.com/WEB-UI-TEAM-B/html5-team
-### Посилання на сторінку: web-ui-team-b.github.io/html5-team
+#### Посилання на власний [репозиторій](https://github.com/akardash/html5-team).
+#### Посилання на головний репозиторій: https://github.com/WEB-UI-TEAM-B/html5-team
+#### Посилання на сторінку: web-ui-team-b.github.io/html5-team
