@@ -205,8 +205,7 @@ h1 {
 	}
 	.nav {
 		display: block;
-		position: absolute;
-		top: 0;
+	
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -227,8 +226,7 @@ h1 {
 	}
 	.nav {
 		display: block;
-		position: absolute;
-		top: 0;
+		
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -699,6 +697,8 @@ overflow: auto;
 }
 .in1show{
   width: 70%;
+  min-width: 100px;
+  max-width: 300px;
   height: auto;
   min-height: 45px;
   background-color: #262A29;
@@ -732,6 +732,8 @@ overflow: auto;
   color: #cca15e;
 }
 #in1sec header {
+  min-width: 200px;
+  height: auto;
   text-align: center;
   color: #D6AA5B;
   background-color: #262A29;

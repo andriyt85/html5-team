@@ -190,12 +190,9 @@ h1 {
 	#i3logo, .i3show {
 		visibility: hidden;
 	}
-	#i3rightl {
-   display: none;
-  }
 	.nav {
-		margin-top: -50px;
-		position: static;
+	  top: 0;
+		position: absolute;
 	}
 	.i3enter {
 		text-overflow: ellipsis;
@@ -212,7 +209,7 @@ h1 {
 	#i3rightl {
 		clear: both;
 		margin-top: 0px;
-		margin-left: 100px;
+		margin-left: 500px;
 	}
 	.nav {
 		display: block;
